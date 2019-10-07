@@ -10,7 +10,7 @@ I’ve created a game of ***Memory*** where any number of players between 1 - 10
 Before starting, please expand your terminal to **FULL SCREEN** and **DO NOT RESIZE** during game play. (**You can minimize the terminal however whenever you want**) This is for best performance given the graphics library I used, which is called curses. I do think this is a reasonable tradeoff because it allows for a more seamless game experience
 
 
-Clone the git repository and cd into the folder. The code runs with **python 2.7**. No external libraries need to be installed. To start game play run the following command in terminal
+Clone the git repository and cd into the root. The code runs with **python 2.7**. No external libraries need to be installed. To start game play run the following command in terminal
 
     python2.7 start.py
 
@@ -35,7 +35,7 @@ I chose the curses library because it allowed me to elegantly simulate a game st
 In a larger project I might have utilized a test library like pytest. However, because I just needed to run a few unit tests, I conducted the test procedure myself.
 
 # Tests
-To run the tests for the Grid Class, simply run ```python Grid_Class_Tests.py``` .
+To run the tests for the Grid Class, simply run ```python Grid_Class_Tests.py``` in the root folder .
 
 # Design Explanation
 

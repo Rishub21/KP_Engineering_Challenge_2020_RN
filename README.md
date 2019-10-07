@@ -35,7 +35,7 @@ I chose the curses library because it allowed me to elegantly simulate a game st
 In a larger project I might have utilized a test library like pytest. However, because I just needed to run a few unit tests, I conducted the test procedure myself.
 
 # Tests
-To run the tests for the Grid Class, simply run python Grid_Class_Tests.py .
+To run the tests for the Grid Class, simply run ```python Grid_Class_Tests.py``` .
 
 # Design Explanation
 
